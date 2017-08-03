@@ -1,11 +1,11 @@
 import os
 import sys
-import unicodedata
 
 from clint.textui import progress
 
 from analyzer.exporting import to_csv, to_graph
 from analyzer.scraping import get_sections
+from analyzer.utils import slugfy
 
 
 OUTPUT_DIR = 'output'
@@ -20,18 +20,10 @@ CURRICULA = [
 ]
 
 
-def _slugfy(s):
-    return (unicodedata.normalize('NFKD', s)
-            .encode('ascii', 'ignore')
-            .decode('ascii')
-            .replace(' ', '_')
-            .lower())
-
-
 def export_curriculum(exports, name, code):
     sections = get_sections(code)
 
-    base_name = os.path.join(OUTPUT_DIR, _slugfy(name))
+    base_name = os.path.join(OUTPUT_DIR, slugfy(name))
     for export in exports:
         export(base_name, sections)
 
