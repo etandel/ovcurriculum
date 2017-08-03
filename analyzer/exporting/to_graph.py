@@ -5,7 +5,7 @@ from analyzer.utils import slugfy
 
 
 def to_graph(base_fname, sections):
-    dot = Digraph(format='pdf')
+    dot = Digraph(format='pdf', comment=base_fname)
     dot.attr('node', shape='plaintext')
 
     available_courses = []
@@ -13,6 +13,9 @@ def to_graph(base_fname, sections):
     # create nodes
     for section in sections:
         with dot.subgraph(name='cluster_' + slugfy(section['name'])) as sg:
+            sg.attr(label=section['name'])
+            sg.attr(pencolor='transparent')
+
             for course in section['courses']:
                 if course['codigo'] != '******':
                     available_courses.append(course['codigo'])
