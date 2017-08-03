@@ -4,7 +4,7 @@ import unicodedata
 
 from clint.textui import progress
 
-from analyzer.exporting import to_csv
+from analyzer.exporting import to_csv, to_graph
 from analyzer.scraping import get_sections
 
 
@@ -34,10 +34,6 @@ def export_curriculum(exports, name, code):
     base_name = os.path.join(OUTPUT_DIR, _slugfy(name))
     for export in exports:
         export(base_name, sections)
-
-
-def to_graph(base_fname, sections):
-    export_sections_to_graph(base_fname + '.png', sections)
 
 
 def main():
