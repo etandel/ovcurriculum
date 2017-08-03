@@ -1,3 +1,5 @@
 #!/usr/bin/bash
 
-diff <(cat output/*) expected.txt
+python main.py --csv && \
+    diff -d <(cat output/*.csv) expected.txt && \
+    rm output/*.csv
