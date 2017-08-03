@@ -23,7 +23,7 @@ def to_graph(base_fname, sections):
     for section in sections:
         for course in section['courses']:
             if course['codigo'] != '******':
-                for requirement in course['requisitos'].split('&'):
+                for requirement in course['requisitos'].split():
                     requirement = requirement.strip()
                     if requirement and requirement in available_courses:
                         dot.edge(requirement, course['codigo'])

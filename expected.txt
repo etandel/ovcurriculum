@@ -4,35 +4,35 @@ section,codigo,nome,creditos,carga_horaria_teorica,carga_horaria_pratica,carga_h
  1º Período,MAB121,Computacao I,4.0,45,15,0,
  1º Período,MAC118,Calculo Difer e Integral I,6.0,90,0,0,
  1º Período,OVL111,Introdução à Astronomia,2.0,30,0,0,
- 2º Período,FIS121,Fisica Experimental II,1.0,0,30,0,FIS111 & FIT112
- 2º Período,FIT121,Fisica II,5.0,60,30,0,FIT111 & MAC114
+ 2º Período,FIS121,Fisica Experimental II,1.0,0,30,0,FIS111 FIT112
+ 2º Período,FIT121,Fisica II,5.0,60,30,0,FIT111 MAC114
  2º Período,MAC128,Calculo Diferen e Integral II,4.0,60,0,0,MAC118
  2º Período,MAE125,Algebra Linear II,4.0,45,15,0,
  2º Período,OVL121,Astronomia Esférica,5.0,60,30,0,
- 3º Período,FIM231,Fisica III,5.0,60,30,0,FIT111 & MAC128
+ 3º Período,FIM231,Fisica III,5.0,60,30,0,FIT111 MAC128
  3º Período,FIN231,Fisica Experimental III,1.0,0,30,0,FIS121
  3º Período,MAC238,Calculo Diferen e Integral III,4.0,60,0,0,MAC128
  3º Período,MAD124,Introducao a Estatistica,4.0,45,15,0,
  3º Período,OVL231,Laboratório de Astronomia,2.0,0,60,0,
- 3º Período,OVL232,Métodos Comput da Astronomia,5.0,60,30,0,MAB121 & MAE125
+ 3º Período,OVL232,Métodos Comput da Astronomia,5.0,60,30,0,MAB121 MAE125
  4º Período,FIM241,Fisica IV,5.0,60,30,0,FIM231
- 4º Período,FIN241,Fisica Experimental IV,1.0,0,30,0,FIM230 & FIN231
+ 4º Período,FIN241,Fisica Experimental IV,1.0,0,30,0,FIM230 FIN231
  4º Período,FIN242,Fisica Moderna I,4.0,45,30,0,FIM231
- 4º Período,FIW243,Mecânica Clássica I,4.0,60,0,0,FIT122 & MAC238
+ 4º Período,FIW243,Mecânica Clássica I,4.0,60,0,0,FIT122 MAC238
  4º Período,FIW245,Metodos da Fisica Teorica I,4.0,60,0,0,MAC238
- 4º Período,OVL241,Astrofísica Geral,5.0,60,30,0,FIM231 & MAC118
- 5º Período,FIW244,Eletromagnetismo I,4.0,60,0,0,FIM240 (C)& FIW245
- 5º Período,FIW356,Mecanica Quantica I,4.0,60,0,0,FIM240 & FIW245 & FIW246 (C)
- 5º Período,OVL351,Técn Observacional Astronômica,5.0,60,30,0,OVL231 & OVL241
- 5º Período,OVL352,Sistemas Planetários,5.0,60,30,0,FIW243 & OVL121
+ 4º Período,OVL241,Astrofísica Geral,5.0,60,30,0,FIM231 MAC118
+ 5º Período,FIW244,Eletromagnetismo I,4.0,60,0,0,FIM240 FIW245
+ 5º Período,FIW356,Mecanica Quantica I,4.0,60,0,0,FIM240 FIW245 FIW246
+ 5º Período,OVL351,Técn Observacional Astronômica,5.0,60,30,0,OVL231 OVL241
+ 5º Período,OVL352,Sistemas Planetários,5.0,60,30,0,FIW243 OVL121
  5º Período,******,Atividades Academicas de Livre Escolha,4.0,60,0,0,
  6º Período,FIW355,Eletromagnetismo II,4.0,60,0,0,FIW244
- 6º Período,FIW363,Termodinamica Fis Estatistica,6.0,90,0,0,FIM240 & MAC238
+ 6º Período,FIW363,Termodinamica Fis Estatistica,6.0,90,0,0,FIM240 MAC238
  6º Período,OVL361,Evolução do Pensam Astronômico,4.0,60,0,0,OVL241
  6º Período,******,Atividades Academicas de Livre Escolha,4.0,60,0,0,
  6º Período,******,Atividades Academicas Optativas (Grupo01),4.0,60,0,0,
- 7º Período,OVL471,Prática Observac em Astronomia,4.0,30,60,0,FIM241 & OVL351
- 7º Período,OVL473,Estrutura e Evolução Estelar,4.0,60,0,0,FIW363 & OVL241
+ 7º Período,OVL471,Prática Observac em Astronomia,4.0,30,60,0,FIM241 OVL351
+ 7º Período,OVL473,Estrutura e Evolução Estelar,4.0,60,0,0,FIW363 OVL241
  7º Período,******,Atividades Academicas Optativas (Grupo01),4.0,60,0,0,
  8º Período,OVLX01,Proj Final de Curso Astronomia,0.0,60,0,0,
  8º Período,******,Atividades Academicas de Livre Escolha,4.0,60,0,0,
@@ -43,35 +43,35 @@ section,codigo,nome,creditos,carga_horaria_teorica,carga_horaria_pratica,carga_h
  1º Período,MAB121,Computacao I,4.0,45,15,0,
  1º Período,MAC118,Calculo Difer e Integral I,6.0,90,0,0,
  1º Período,OVL111,Introdução à Astronomia,2.0,30,0,0,
- 2º Período,FIS121,Fisica Experimental II,1.0,0,30,0,FIS111 & FIT112
- 2º Período,FIT121,Fisica II,5.0,60,30,0,FIT111 & MAC114
+ 2º Período,FIS121,Fisica Experimental II,1.0,0,30,0,FIS111 FIT112
+ 2º Período,FIT121,Fisica II,5.0,60,30,0,FIT111 MAC114
  2º Período,MAC128,Calculo Diferen e Integral II,4.0,60,0,0,MAC118
  2º Período,MAE125,Algebra Linear II,4.0,45,15,0,
  2º Período,OVL121,Astronomia Esférica,5.0,60,30,0,
- 3º Período,FIM231,Fisica III,5.0,60,30,0,FIT111 & MAC128
+ 3º Período,FIM231,Fisica III,5.0,60,30,0,FIT111 MAC128
  3º Período,FIN231,Fisica Experimental III,1.0,0,30,0,FIS121
  3º Período,MAC238,Calculo Diferen e Integral III,4.0,60,0,0,MAC128
  3º Período,MAD124,Introducao a Estatistica,4.0,45,15,0,
  3º Período,OVL231,Laboratório de Astronomia,2.0,0,60,0,
- 3º Período,OVL232,Métodos Comput da Astronomia,5.0,60,30,0,MAB121 & MAE125
+ 3º Período,OVL232,Métodos Comput da Astronomia,5.0,60,30,0,MAB121 MAE125
  4º Período,FIM241,Fisica IV,5.0,60,30,0,FIM231
- 4º Período,FIN241,Fisica Experimental IV,1.0,0,30,0,FIM230 & FIN231
+ 4º Período,FIN241,Fisica Experimental IV,1.0,0,30,0,FIM230 FIN231
  4º Período,FIN242,Fisica Moderna I,4.0,45,30,0,FIM231
- 4º Período,FIW243,Mecânica Clássica I,4.0,60,0,0,FIT122 & MAC238
+ 4º Período,FIW243,Mecânica Clássica I,4.0,60,0,0,FIT122 MAC238
  4º Período,FIW245,Metodos da Fisica Teorica I,4.0,60,0,0,MAC238
- 4º Período,OVL241,Astrofísica Geral,5.0,60,30,0,FIM231 & MAC118
- 5º Período,FIW244,Eletromagnetismo I,4.0,60,0,0,FIM240 (C)& FIW245
- 5º Período,FIW356,Mecanica Quantica I,4.0,60,0,0,FIM240 & FIW245 & FIW246 (C)
- 5º Período,OVL351,Técn Observacional Astronômica,5.0,60,30,0,OVL231 & OVL241
- 5º Período,OVL352,Sistemas Planetários,5.0,60,30,0,FIW243 & OVL121
+ 4º Período,OVL241,Astrofísica Geral,5.0,60,30,0,FIM231 MAC118
+ 5º Período,FIW244,Eletromagnetismo I,4.0,60,0,0,FIM240 FIW245
+ 5º Período,FIW356,Mecanica Quantica I,4.0,60,0,0,FIM240 FIW245 FIW246
+ 5º Período,OVL351,Técn Observacional Astronômica,5.0,60,30,0,OVL231 OVL241
+ 5º Período,OVL352,Sistemas Planetários,5.0,60,30,0,FIW243 OVL121
  5º Período,******,Atividades Academicas de Livre Escolha,4.0,60,0,0,
- 6º Período,FIW363,Termodinamica Fis Estatistica,6.0,90,0,0,FIM240 & MAC238
+ 6º Período,FIW363,Termodinamica Fis Estatistica,6.0,90,0,0,FIM240 MAC238
  6º Período,OVL361,Evolução do Pensam Astronômico,4.0,60,0,0,OVL241
- 6º Período,OVL362,Astroestatística,4.0,45,30,0,FIW245 & MAD124 & OVL232
+ 6º Período,OVL362,Astroestatística,4.0,45,30,0,FIW245 MAD124 OVL232
  6º Período,******,Atividades Academicas de Livre Escolha,4.0,60,0,0,
  6º Período,******,Atividades Academicas Optativas (Grupo02),4.0,60,0,0,
- 7º Período,OVL471,Prática Observac em Astronomia,4.0,30,60,0,FIM241 & OVL351
- 7º Período,OVL474,Tratamento Dados Astronômicos,4.0,60,0,0,OVL241 & OVL362
+ 7º Período,OVL471,Prática Observac em Astronomia,4.0,30,60,0,FIM241 OVL351
+ 7º Período,OVL474,Tratamento Dados Astronômicos,4.0,60,0,0,OVL241 OVL362
  7º Período,******,Atividades Academicas Optativas (Grupo02),4.0,60,0,0,
  8º Período,OVLX01,Proj Final de Curso Astronomia,0.0,60,0,0,
  8º Período,******,Atividades Academicas de Livre Escolha,4.0,60,0,0,
@@ -82,35 +82,35 @@ section,codigo,nome,creditos,carga_horaria_teorica,carga_horaria_pratica,carga_h
  1º Período,MAB121,Computacao I,4.0,45,15,0,
  1º Período,MAC118,Calculo Difer e Integral I,6.0,90,0,0,
  1º Período,OVL111,Introdução à Astronomia,2.0,30,0,0,
- 2º Período,FIS121,Fisica Experimental II,1.0,0,30,0,FIS111 & FIT112
- 2º Período,FIT121,Fisica II,5.0,60,30,0,FIT111 & MAC114
+ 2º Período,FIS121,Fisica Experimental II,1.0,0,30,0,FIS111 FIT112
+ 2º Período,FIT121,Fisica II,5.0,60,30,0,FIT111 MAC114
  2º Período,MAC128,Calculo Diferen e Integral II,4.0,60,0,0,MAC118
  2º Período,MAE125,Algebra Linear II,4.0,45,15,0,
  2º Período,OVL121,Astronomia Esférica,5.0,60,30,0,
- 3º Período,FIM231,Fisica III,5.0,60,30,0,FIT111 & MAC128
+ 3º Período,FIM231,Fisica III,5.0,60,30,0,FIT111 MAC128
  3º Período,FIN231,Fisica Experimental III,1.0,0,30,0,FIS121
  3º Período,MAC238,Calculo Diferen e Integral III,4.0,60,0,0,MAC128
  3º Período,MAD124,Introducao a Estatistica,4.0,45,15,0,
  3º Período,OVL231,Laboratório de Astronomia,2.0,0,60,0,
- 3º Período,OVL232,Métodos Comput da Astronomia,5.0,60,30,0,MAB121 & MAE125
+ 3º Período,OVL232,Métodos Comput da Astronomia,5.0,60,30,0,MAB121 MAE125
  4º Período,FIM241,Fisica IV,5.0,60,30,0,FIM231
- 4º Período,FIN241,Fisica Experimental IV,1.0,0,30,0,FIM230 & FIN231
+ 4º Período,FIN241,Fisica Experimental IV,1.0,0,30,0,FIM230 FIN231
  4º Período,FIN242,Fisica Moderna I,4.0,45,30,0,FIM231
- 4º Período,FIW243,Mecânica Clássica I,4.0,60,0,0,FIT122 & MAC238
+ 4º Período,FIW243,Mecânica Clássica I,4.0,60,0,0,FIT122 MAC238
  4º Período,FIW245,Metodos da Fisica Teorica I,4.0,60,0,0,MAC238
- 4º Período,OVL241,Astrofísica Geral,5.0,60,30,0,FIM231 & MAC118
- 5º Período,FIW244,Eletromagnetismo I,4.0,60,0,0,FIM240 (C)& FIW245
- 5º Período,FIW356,Mecanica Quantica I,4.0,60,0,0,FIM240 & FIW245 & FIW246 (C)
- 5º Período,OVL351,Técn Observacional Astronômica,5.0,60,30,0,OVL231 & OVL241
- 5º Período,OVL352,Sistemas Planetários,5.0,60,30,0,FIW243 & OVL121
+ 4º Período,OVL241,Astrofísica Geral,5.0,60,30,0,FIM231 MAC118
+ 5º Período,FIW244,Eletromagnetismo I,4.0,60,0,0,FIM240 FIW245
+ 5º Período,FIW356,Mecanica Quantica I,4.0,60,0,0,FIM240 FIW245 FIW246
+ 5º Período,OVL351,Técn Observacional Astronômica,5.0,60,30,0,OVL231 OVL241
+ 5º Período,OVL352,Sistemas Planetários,5.0,60,30,0,FIW243 OVL121
  5º Período,******,Atividades Academicas de Livre Escolha,4.0,60,0,0,
- 6º Período,FIW246,Experimentos de Fis Quantica,4.0,30,60,0,FIM240 & FIN241
- 6º Período,FIW363,Termodinamica Fis Estatistica,6.0,90,0,0,FIM240 & MAC238
+ 6º Período,FIW246,Experimentos de Fis Quantica,4.0,30,60,0,FIM240 FIN241
+ 6º Período,FIW363,Termodinamica Fis Estatistica,6.0,90,0,0,FIM240 MAC238
  6º Período,OVL361,Evolução do Pensam Astronômico,4.0,60,0,0,OVL241
  6º Período,******,Atividades Academicas de Livre Escolha,4.0,60,0,0,
  6º Período,******,Atividades Academicas Optativas (Grupo03),4.0,60,0,0,
  7º Período,FIS352,Fis de Mat e Dispos Semicond,4.0,60,0,0,
- 7º Período,OVL471,Prática Observac em Astronomia,4.0,30,60,0,FIM241 & OVL351
+ 7º Período,OVL471,Prática Observac em Astronomia,4.0,30,60,0,FIM241 OVL351
  7º Período,******,Atividades Academicas Optativas (Grupo03),4.0,60,0,0,
  8º Período,OVLX01,Proj Final de Curso Astronomia,0.0,60,0,0,
  8º Período,******,Atividades Academicas de Livre Escolha,4.0,60,0,0,
@@ -121,35 +121,35 @@ section,codigo,nome,creditos,carga_horaria_teorica,carga_horaria_pratica,carga_h
  1º Período,MAB121,Computacao I,4.0,45,15,0,
  1º Período,MAC118,Calculo Difer e Integral I,6.0,90,0,0,
  1º Período,OVL111,Introdução à Astronomia,2.0,30,0,0,
- 2º Período,FIS121,Fisica Experimental II,1.0,0,30,0,FIS111 & FIT112
- 2º Período,FIT121,Fisica II,5.0,60,30,0,FIT111 & MAC114
+ 2º Período,FIS121,Fisica Experimental II,1.0,0,30,0,FIS111 FIT112
+ 2º Período,FIT121,Fisica II,5.0,60,30,0,FIT111 MAC114
  2º Período,MAC128,Calculo Diferen e Integral II,4.0,60,0,0,MAC118
  2º Período,MAE125,Algebra Linear II,4.0,45,15,0,
  2º Período,OVL121,Astronomia Esférica,5.0,60,30,0,
- 3º Período,FIM231,Fisica III,5.0,60,30,0,FIT111 & MAC128
+ 3º Período,FIM231,Fisica III,5.0,60,30,0,FIT111 MAC128
  3º Período,FIN231,Fisica Experimental III,1.0,0,30,0,FIS121
  3º Período,MAC238,Calculo Diferen e Integral III,4.0,60,0,0,MAC128
  3º Período,MAD124,Introducao a Estatistica,4.0,45,15,0,
  3º Período,OVL231,Laboratório de Astronomia,2.0,0,60,0,
- 3º Período,OVL232,Métodos Comput da Astronomia,5.0,60,30,0,MAB121 & MAE125
+ 3º Período,OVL232,Métodos Comput da Astronomia,5.0,60,30,0,MAB121 MAE125
  4º Período,FIM241,Fisica IV,5.0,60,30,0,FIM231
- 4º Período,FIN241,Fisica Experimental IV,1.0,0,30,0,FIM230 & FIN231
+ 4º Período,FIN241,Fisica Experimental IV,1.0,0,30,0,FIM230 FIN231
  4º Período,FIN242,Fisica Moderna I,4.0,45,30,0,FIM231
- 4º Período,FIW243,Mecânica Clássica I,4.0,60,0,0,FIT122 & MAC238
+ 4º Período,FIW243,Mecânica Clássica I,4.0,60,0,0,FIT122 MAC238
  4º Período,FIW245,Metodos da Fisica Teorica I,4.0,60,0,0,MAC238
- 4º Período,OVL241,Astrofísica Geral,5.0,60,30,0,FIM231 & MAC118
- 5º Período,FIW244,Eletromagnetismo I,4.0,60,0,0,FIM240 (C)& FIW245
- 5º Período,FIW356,Mecanica Quantica I,4.0,60,0,0,FIM240 & FIW245 & FIW246 (C)
- 5º Período,OVL351,Técn Observacional Astronômica,5.0,60,30,0,OVL231 & OVL241
- 5º Período,OVL352,Sistemas Planetários,5.0,60,30,0,FIW243 & OVL121
+ 4º Período,OVL241,Astrofísica Geral,5.0,60,30,0,FIM231 MAC118
+ 5º Período,FIW244,Eletromagnetismo I,4.0,60,0,0,FIM240 FIW245
+ 5º Período,FIW356,Mecanica Quantica I,4.0,60,0,0,FIM240 FIW245 FIW246
+ 5º Período,OVL351,Técn Observacional Astronômica,5.0,60,30,0,OVL231 OVL241
+ 5º Período,OVL352,Sistemas Planetários,5.0,60,30,0,FIW243 OVL121
  5º Período,******,Atividades Academicas de Livre Escolha,4.0,60,0,0,
  6º Período,FIW354,Mecanica Classica II,4.0,60,0,0,FIW243
- 6º Período,FIW363,Termodinamica Fis Estatistica,6.0,90,0,0,FIM240 & MAC238
+ 6º Período,FIW363,Termodinamica Fis Estatistica,6.0,90,0,0,FIM240 MAC238
  6º Período,OVL361,Evolução do Pensam Astronômico,4.0,60,0,0,OVL241
  6º Período,******,Atividades Academicas de Livre Escolha,4.0,60,0,0,
  6º Período,******,Atividades Academicas Optativas (Grupo04),4.0,60,0,0,
  7º Período,FIW364,Metodos da Fisica Teorica II,4.0,60,0,0,FIW245
- 7º Período,OVL471,Prática Observac em Astronomia,4.0,30,60,0,FIM241 & OVL351
+ 7º Período,OVL471,Prática Observac em Astronomia,4.0,30,60,0,FIM241 OVL351
  7º Período,******,Atividades Academicas Optativas (Grupo04),4.0,60,0,0,
  8º Período,OVLX01,Proj Final de Curso Astronomia,0.0,60,0,0,
  8º Período,******,Atividades Academicas de Livre Escolha,4.0,60,0,0,
@@ -160,34 +160,34 @@ section,codigo,nome,creditos,carga_horaria_teorica,carga_horaria_pratica,carga_h
  1º Período,MAB121,Computacao I,4.0,45,15,0,
  1º Período,MAC118,Calculo Difer e Integral I,6.0,90,0,0,
  1º Período,OVL111,Introdução à Astronomia,2.0,30,0,0,
- 2º Período,FIS121,Fisica Experimental II,1.0,0,30,0,FIS111 & FIT112
- 2º Período,FIT121,Fisica II,5.0,60,30,0,FIT111 & MAC114
+ 2º Período,FIS121,Fisica Experimental II,1.0,0,30,0,FIS111 FIT112
+ 2º Período,FIT121,Fisica II,5.0,60,30,0,FIT111 MAC114
  2º Período,MAC128,Calculo Diferen e Integral II,4.0,60,0,0,MAC118
  2º Período,MAE125,Algebra Linear II,4.0,45,15,0,
  2º Período,OVL121,Astronomia Esférica,5.0,60,30,0,
- 3º Período,FIM231,Fisica III,5.0,60,30,0,FIT111 & MAC128
+ 3º Período,FIM231,Fisica III,5.0,60,30,0,FIT111 MAC128
  3º Período,FIN231,Fisica Experimental III,1.0,0,30,0,FIS121
  3º Período,MAC238,Calculo Diferen e Integral III,4.0,60,0,0,MAC128
  3º Período,MAD124,Introducao a Estatistica,4.0,45,15,0,
  3º Período,OVL231,Laboratório de Astronomia,2.0,0,60,0,
- 3º Período,OVL232,Métodos Comput da Astronomia,5.0,60,30,0,MAB121 & MAE125
+ 3º Período,OVL232,Métodos Comput da Astronomia,5.0,60,30,0,MAB121 MAE125
  4º Período,FIM241,Fisica IV,5.0,60,30,0,FIM231
- 4º Período,FIN241,Fisica Experimental IV,1.0,0,30,0,FIM230 & FIN231
+ 4º Período,FIN241,Fisica Experimental IV,1.0,0,30,0,FIM230 FIN231
  4º Período,FIN242,Fisica Moderna I,4.0,45,30,0,FIM231
- 4º Período,FIW243,Mecânica Clássica I,4.0,60,0,0,FIT122 & MAC238
+ 4º Período,FIW243,Mecânica Clássica I,4.0,60,0,0,FIT122 MAC238
  4º Período,FIW245,Metodos da Fisica Teorica I,4.0,60,0,0,MAC238
- 4º Período,OVL241,Astrofísica Geral,5.0,60,30,0,FIM231 & MAC118
- 5º Período,FIW244,Eletromagnetismo I,4.0,60,0,0,FIM240 (C)& FIW245
- 5º Período,FIW356,Mecanica Quantica I,4.0,60,0,0,FIM240 & FIW245 & FIW246 (C)
- 5º Período,OVL351,Técn Observacional Astronômica,5.0,60,30,0,OVL231 & OVL241
- 5º Período,OVL352,Sistemas Planetários,5.0,60,30,0,FIW243 & OVL121
+ 4º Período,OVL241,Astrofísica Geral,5.0,60,30,0,FIM231 MAC118
+ 5º Período,FIW244,Eletromagnetismo I,4.0,60,0,0,FIM240 FIW245
+ 5º Período,FIW356,Mecanica Quantica I,4.0,60,0,0,FIM240 FIW245 FIW246
+ 5º Período,OVL351,Técn Observacional Astronômica,5.0,60,30,0,OVL231 OVL241
+ 5º Período,OVL352,Sistemas Planetários,5.0,60,30,0,FIW243 OVL121
  5º Período,******,Atividades Academicas de Livre Escolha,4.0,60,0,0,
- 6º Período,FIW363,Termodinamica Fis Estatistica,6.0,90,0,0,FIM240 & MAC238
+ 6º Período,FIW363,Termodinamica Fis Estatistica,6.0,90,0,0,FIM240 MAC238
  6º Período,OVL361,Evolução do Pensam Astronômico,4.0,60,0,0,OVL241
  6º Período,OVL363,Astronomia Contemporânea,4.0,60,0,0,OVL241
  6º Período,******,Atividades Academicas de Livre Escolha,4.0,60,0,0,
  6º Período,******,Atividades Academicas Optativas (Grupo05),4.0,60,0,0,
- 7º Período,OVL471,Prática Observac em Astronomia,4.0,30,60,0,FIM241 & OVL351
+ 7º Período,OVL471,Prática Observac em Astronomia,4.0,30,60,0,FIM241 OVL351
  7º Período,OVL472,Difusão Conhec Astronômicos I,4.0,60,0,0,OVL361
  7º Período,******,Atividades Academicas Optativas (Grupo05),4.0,60,0,0,
  8º Período,OVLX01,Proj Final de Curso Astronomia,0.0,60,0,0,

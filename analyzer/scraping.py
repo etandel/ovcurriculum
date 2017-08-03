@@ -1,3 +1,4 @@
+import re
 from io import BytesIO
 
 import requests
@@ -21,7 +22,9 @@ def _remove_empty(xs):
 
 
 def _normalize_reqs(raw_reqs):
-    return raw_reqs.replace('(P)', '').replace(',', '&').strip()
+    return re.sub('\s+', ' ',
+                  re.sub('\(\w\)|,', '',
+                         raw_reqs)).strip()
 
 
 def build_courses(table):
@@ -31,7 +34,7 @@ def build_courses(table):
     courses = []
     rows = table.xpath('.//tr')[1:-1]
     for row in rows:
-        raw_course = row.xpath('(.//td/a|.//td)/text()')
+        raw_course = list(map(str.strip, row.xpath('(.//td/a|.//td)/text()')))
 
         # filter empty lines
         if raw_course:
