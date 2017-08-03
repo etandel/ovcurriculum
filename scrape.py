@@ -1,3 +1,4 @@
+import os
 import sys
 import unicodedata
 from csv import DictWriter
@@ -8,6 +9,9 @@ from pprint import pprint
 import requests
 from lxml.html import parse as parse_html
 from clint.textui import progress
+
+
+OUTPUT_DIR = 'output'
 
 
 BASE_URL = 'https://siga.ufrj.br/sira/repositorio-curriculo/distribuicoes/{}.html'
@@ -87,8 +91,9 @@ def export_curriculum(exports, name, code):
     sections = list(map(build_section,
                         tree.xpath(TABLES_XPATH)[RELEVANT_SECTIONS]))
 
+    base_name = os.path.join(OUTPUT_DIR, _slugfy(name))
     for export in exports:
-        export(_slugfy(name), sections)
+        export(base_name, sections)
 
 
 def _section2rows(section):
@@ -133,6 +138,11 @@ def main():
         exports.append(to_graph)
 
     if exports:
+        try:
+            os.mkdir(OUTPUT_DIR)
+        except FileExistsError:
+            pass
+
         for name, code in progress.bar(CURRICULA):
             export_curriculum(exports, name, code)
 
