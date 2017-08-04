@@ -14,7 +14,6 @@ Installation
     - `pip install -r requirements.txt`
 
 
-
 Usage
 ---
 
@@ -26,8 +25,14 @@ python main.py --graph  # generates pdf files to ./output/
 
 Roadmap
 ---
+
 - Add tests;
 - Create interactive graph;
 - Properly handle requirement equivalence;
 - Create a web application.
 
+
+License
+---
+
+This project is licensed under GPLv3. See LICENSE for more details.
